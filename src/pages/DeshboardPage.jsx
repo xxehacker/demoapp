@@ -16,7 +16,7 @@ function Dashboard({ user }) {
           <li onClick={() => setShowChangePassword(true)} className="cursor-pointer text-blue-500">Change Password</li>
           <li onClick={() => {
             alert("Logged out")
-            localStorage.removeItem('user');
+            // localStorage.removeItem('user');
             window.location.href = '/login';
           }} className="cursor-pointer text-red-500">Logout</li>
         </ul>
